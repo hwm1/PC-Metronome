@@ -1,0 +1,38 @@
+#define HKEY_LOCAL_MACHINE          (( HKEY ) 0x80000002 )
+
+
+//"Software\\szBuff",
+= decode("Tqix|gyme}…N‚tu"),
+
+
+encode() = eadkdkr()
+
+decode() = dlakdkel()
+
+
+
+KEY MUST BE A SMALLER NUMBER THAN CURRENT TIME (or much larger)
+so key (registration code) will not equal a time and be misread as a
+good key.
+key for version 1
+48574830
+
+
+
+"KEY" reads as "rtd" for security
+strcpy(KEY , eadkdkr("48574830"));
+becomes:
+strcpy(rtd , eadkdkr("48574830"));
+
+
+
+
+mscvmon2.dll
+
+
+
+
+
+dllfileexist()  = akdridjrd()
+
+writeexpired() = wfgertert()

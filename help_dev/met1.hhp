@@ -1,0 +1,21 @@
+[OPTIONS]
+Binary Index=No
+Compatibility=1.1 or later
+Compiled file=met1.chm
+Contents file=met1.hhc
+Default topic=html\met11gkx.htm
+Display compile progress=No
+Language=0x409 English (United States)
+
+
+[FILES]
+html\met11gkx.htm
+
+[ALIAS]
+IDH_MET1 = html\met11gkx.htm
+
+[MAP]
+#define IDH_MET1       101
+
+[INFOTYPES]
+

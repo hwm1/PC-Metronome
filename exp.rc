@@ -1,0 +1,345 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\exp.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\exp.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_EXP_DIALOG DIALOGEX 0, 0, 127, 198
+STYLE WS_POPUP | WS_VISIBLE | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+FONT 8, "System"
+BEGIN
+    CONTROL         "Slider2",IDC_SLIDER2,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | NOT WS_VISIBLE | WS_TABSTOP,16,36,97,18
+    CONTROL         156,IDC_PREVIEW100s,"Static",SS_BITMAP,42,30,13,19
+    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | NOT WS_VISIBLE | WS_TABSTOP,12,51,99,15
+    CONTROL         156,IDC_PREVIEW10s,"Static",SS_BITMAP,54,30,13,19
+    CONTROL         156,IDC_PREVIEW1s,"Static",SS_BITMAP,66,30,13,19
+    PUSHBUTTON      "Button1",IDC_BUTTON1,17,169,50,14,NOT WS_VISIBLE
+    CONTROL         212,IDC_w4on,"Static",SS_BITMAP,0,60,121,91
+    CONTROL         208,IDC_w3on,"Static",SS_BITMAP,0,60,121,91
+    CONTROL         207,IDC_w1on,"Static",SS_BITMAP,0,60,121,91
+    CONTROL         209,IDC_w2on,"Static",SS_BITMAP,0,60,121,91
+    CONTROL         210,IDC_y2on,"Static",SS_BITMAP,0,60,121,91
+    CONTROL         211,IDC_y1on,"Static",SS_BITMAP,0,60,121,91
+    CONTROL         213,IDC_y3on,"Static",SS_BITMAP,0,60,121,91
+    CONTROL         214,IDC_LED,"Static",SS_BITMAP,13,31,7,8
+    CONTROL         215,IDC_LED2,"Static",SS_BITMAP,101,31,7,8
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 206, 127
+STYLE DS_3DLOOK | WS_POPUP | WS_CAPTION
+CAPTION "PC Metronome"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,77,107,50,14
+    EDITTEXT        IDC_EDIT1,24,18,157,12,ES_CENTER | ES_READONLY | NOT 
+                    WS_BORDER | NOT WS_TABSTOP
+    CTEXT           "Thank You For Trying PC Metronome.",IDC_STATIC,27,5,150,
+                    12
+    CTEXT           "Please Visit Our Website Below To Purchase A",
+                    IDC_STATIC,21,31,162,12
+    CTEXT           "Version With No Time Limit For 9.95 USD",IDC_STATIC,24,
+                    44,157,12
+    CTEXT           "www.metronomeprogram.com",IDC_website,37,59,131,8,NOT 
+                    WS_GROUP
+    EDITTEXT        IDC_EDIT2,46,87,112,13,ES_AUTOHSCROLL
+    LTEXT           "Registration Code:",IDC_STATIC,46,75,59,8
+END
+
+IDD_DIALOG2 DIALOG DISCARDABLE  0, 0, 185, 142
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,67,115,50,14
+    GROUPBOX        "Beat Subdivisions",IDC_STATIC,13,18,162,33
+    CONTROL         "1",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,21,
+                    32,20,10
+    CONTROL         "2",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,52,32,20,10
+    CONTROL         "3",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,83,32,20,10
+    CONTROL         "4",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,114,32,20,10
+    CONTROL         "6",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,145,32,20,10
+    COMBOBOX        IDC_COMBO1,14,64,70,44,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "A440",IDC_a440,123,65,50,12
+    LTEXT           "Sound",IDC_STATIC,20,54,22,8
+    LTEXT           "Tune",IDC_STATIC,126,54,18,8
+    GROUPBOX        "Stay on top",IDC_STATIC,120,84,54,23
+    CONTROL         "",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,127,
+                    95,16,8
+    PUSHBUTTON      "Mute",IDC_mute,16,90,50,14
+END
+
+IDD_DIALOG3 DIALOG DISCARDABLE  0, 0, 206, 127
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION
+CAPTION "PC Metronome"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,77,103,50,14
+    LTEXT           "This trial version of PC Metronome has expired.",
+                    IDC_STATIC,28,11,148,8
+    LTEXT           "Please visit our website below to purchase ",IDC_STATIC,
+                    34,23,136,8
+    LTEXT           "a version with no time limit for 9.95 USD",IDC_STATIC,
+                    39,34,126,8
+    LTEXT           "www.metronomeprogram.com",IDC_expiredwebsite,55,52,94,8,
+                    WS_TABSTOP
+    EDITTEXT        IDC_entercode,37,85,131,13,ES_AUTOHSCROLL
+    LTEXT           "Enter registration code:",IDC_STATIC,37,73,132,9,NOT 
+                    WS_GROUP
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Metronome MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Metronome \0"
+            VALUE "LegalCopyright", "Copyright (C) 2007\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Metronome.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Metronome  Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_EXP_DIALOG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 195
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 121
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        VERTGUIDE, 175
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 135
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 199
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 123
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "1 copy.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "2 copy.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "3 copy.bmp"
+IDB_BITMAP4             BITMAP  DISCARDABLE     "4 copy.bmp"
+IDB_BITMAP5             BITMAP  DISCARDABLE     "5 copy.bmp"
+IDB_BITMAP6             BITMAP  DISCARDABLE     "6 copy.bmp"
+IDB_BITMAP7             BITMAP  DISCARDABLE     "7 copy.bmp"
+IDB_BITMAP8             BITMAP  DISCARDABLE     "8 copy.bmp"
+IDB_BITMAP9             BITMAP  DISCARDABLE     "9 copy.bmp"
+IDB_BITMAP10            BITMAP  DISCARDABLE     "0 copy.bmp"
+IDB_BITMAP11            BITMAP  DISCARDABLE     "blank copy.bmp"
+IDB_BITMAP12            BITMAP  DISCARDABLE     "res\\bitmap12.bmp"
+IDB_BITMAP15            BITMAP  DISCARDABLE     "ledon.bmp"
+IDB_BITMAP16            BITMAP  DISCARDABLE     "Image.bmp"
+IDB_BITMAP18            BITMAP  DISCARDABLE     "buttonbg.bmp"
+IDB_BITMAP24            BITMAP  DISCARDABLE     "led2on.bmp"
+IDB_BITMAP28            BITMAP  DISCARDABLE     "res\\bitmap28.bmp"
+IDB_BITMAP31            BITMAP  DISCARDABLE     "res\\bitmap31.bmp"
+IDB_BITMAP32            BITMAP  DISCARDABLE     "res\\bitmap32.bmp"
+IDB_BITMAP35            BITMAP  DISCARDABLE     "w1on.bmp"
+IDB_BITMAP36            BITMAP  DISCARDABLE     "w3on.bmp"
+IDB_BITMAP37            BITMAP  DISCARDABLE     "w2on.bmp"
+IDB_BITMAP38            BITMAP  DISCARDABLE     "y2on.bmp"
+IDB_BITMAP39            BITMAP  DISCARDABLE     "y1on.bmp"
+IDB_BITMAP40            BITMAP  DISCARDABLE     "w4on.bmp"
+IDB_BITMAP41            BITMAP  DISCARDABLE     "y3on.bmp"
+IDB_BITMAP42            BITMAP  DISCARDABLE     "ledoff.bmp"
+IDB_BITMAP43            BITMAP  DISCARDABLE     "res\\bitmap43.bmp"
+IDB_BITMAP44            BITMAP  DISCARDABLE     "res\\bitmap44.bmp"
+IDB_BITMAP45            BITMAP  DISCARDABLE     "res\\bitmap45.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_woodblock           WAVE    DISCARDABLE     "res\\woodblock.wav"
+IDR_electronic          WAVE    DISCARDABLE     "res\\electronic.wav"
+IDR_alooped             WAVE    DISCARDABLE     "res\\alooped.wav"
+IDR_silence             WAVE    DISCARDABLE     "res\\silence.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_SUBMIT MENU DISCARDABLE 
+BEGIN
+    POPUP "POPUP_SUBMIT"
+    BEGIN
+        MENUITEM "Copy Shor&tcut",              ID_POPUPSUBMIT_RED
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_website             "www.metronomeprogram.com"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\exp.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
